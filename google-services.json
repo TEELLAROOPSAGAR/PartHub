@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1002798011670",
+    "project_id": "spareit-e7c87",
+    "storage_bucket": "spareit-e7c87.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1002798011670:android:e82aa8ea48c2753b5eac37",
+        "android_client_info": {
+          "package_name": "com.example.spareit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1002798011670-ialki9qm3gjh9mmpbch88ua2um7it7rh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.spareit",
+            "certificate_hash": "05ce04956fdffc0fab3ca6e1d2fa411c94327504"
+          }
+        },
+        {
+          "client_id": "1002798011670-tf7shh3flmcg3q90sh04s7iujg29996o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxHw9OWx9XJU-9yzh1BtUXHT4TxpkDxpE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1002798011670-tf7shh3flmcg3q90sh04s7iujg29996o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

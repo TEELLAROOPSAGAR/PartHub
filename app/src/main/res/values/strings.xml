@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SpareIt</string>
+    <string name="item">Items</string>
+    <string name="status">Status</string>
+    <string name="graph">Graphs</string>
+    <string name="refill_stock">Refill Stock</string>
+    <string name="AddEmployee">Add Employee</string>
+</resources>

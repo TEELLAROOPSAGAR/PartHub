@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.spareit">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_spareit"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_spareit_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SpareIt">
+        <activity
+            android:name=".DayGraphActivity"
+            android:exported="false"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".RevenueGraphActivity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".AddStockActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".OrderPlacedActivity"
+            android:exported="false"
+            android:parentActivityName=".ItemSelectActivity" />
+        <activity
+            android:name=".ItemSelectActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StartActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".VendorProfileActivity"
+            android:exported="false"
+            android:parentActivityName=".StatusActivity" />
+        <activity
+            android:name=".AddItemActivity"
+            android:exported="false"
+            android:parentActivityName=".ItemActivity" />
+        <activity
+            android:name=".StatusActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ItemActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
